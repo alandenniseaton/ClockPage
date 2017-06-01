@@ -1,0 +1,27 @@
+/* 
+    Document   : main.css
+    Created on : 29/10/2012, 4:59:16 AM
+    Author     : Alan Dennis Eaton <alan.dennis.eaton@gmail.com>
+*/
+
+.clockView { 
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 100%;
+}
+
+.clockView .margin .content {
+    visibility: hidden;
+}
+.clockView .margin:hover .content {
+    visibility: visible;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.clockTime{
+/*	font-family:monospace;*/
+	font-family:initial;
+    font-weight:bold;
+}
